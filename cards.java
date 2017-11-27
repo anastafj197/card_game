@@ -23,7 +23,7 @@ public class Cards {
   	}
 
   	// Shuffle all the items in the list
-  	collections.shuffle(deck);
+  	Collections.shuffle(deck);
 
   	System.out.println("Top card is the " + deck.get(0));
   
