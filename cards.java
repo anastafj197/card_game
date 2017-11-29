@@ -24,9 +24,40 @@ public class Cards {
 
   	// Shuffle all the items in the list
   	Collections.shuffle(deck);
+    Collections.shuffle(deck);
 
-  	System.out.println("Top card is the " + deck.get(0));
+    System.out.println();
+
+  	//System.out.println("Top card = " + deck.get(0));
+
+  	deal(4, "war", deck);
   
   }
+  
+  public static void deal(int numPlayers, String game, List<String> deck) {
 
+    Collections.shuffle(deck);
+    System.out.println();
+    System.out.println("The game being played is " + game);
+
+    List<String> hand = new ArrayList<String>();
+
+    for(int i = 0; i < numPlayers; i++) {
+
+    }
+      
+  }
+
+  public static void war() {
+  	
+  	// 1. Deal deck 
+  	// 2. Pop Top Cards 
+  	// 3. Compare   
+  	// 4. If Tie 
+  	// 5. Else push both 
+  	// 6. 
+  }
 }
+  
+  
+
